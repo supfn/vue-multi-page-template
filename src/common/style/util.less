@@ -1,0 +1,27 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  &:active {
+    opacity: .7;
+  }
+}
